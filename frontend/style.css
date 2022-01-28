@@ -1,0 +1,59 @@
+
+nav{
+   color: white;
+   text-align: center;
+}
+body{
+    background-color:hsl(171, 100%, 41%) ;
+}
+#comments::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    
+  }
+  
+
+  
+#comments::-webkit-scrollbar-thumb {
+    background-color: hsl(171, 100%, 41%);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid whitesmoke;  /* creates padding around scroll thumb */
+  }
+#logotext{
+    font-size: 40px;
+}
+#boxm{
+    height: 650px;
+    border-radius: 30px;
+}
+.message{
+    color: white;
+    background-color: hsl(171, 100%, 41%);
+    max-width: 300px;
+    min-width: 50px;
+    min-height: 40px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+.right{
+float: right;
+clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+#text{
+    position: absolute;
+    bottom: 0px;
+}
+span{
+margin: 5px;
+}
+#comments{
+    overflow: auto;
+    }
+.message{
+    padding: 5px;
+    margin: 5px;
+}
